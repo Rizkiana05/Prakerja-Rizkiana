@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        .box-static {
+            position: static;
+            width: 400px;
+            height: 400px;
+            background: orange;
+        }
+        .box-relative {
+            position: relative;
+            top: 40px;
+            right: 40px;
+            width: 400px;
+            height: 400px;
+            background: green;
+        }
+        .box-absolute {
+            position: absolute;
+            top: 40px;
+            right: 40px;
+            width: 400px;
+            height: 400px;
+            background: pink;
+        }
+        .box-fixed {
+            position: fixed;
+            top: 40px;
+            right: 40px;
+            width: 400px;
+            height: 400px;
+            background: blue;
+            z-index: 11;
+        }
+    </style>
+</head>
+<body>
+    <div class="Box static">Box Static</div>
+    <div class="Box static">Box Static</div>
+    <div class="Box static">Box Static</div>
+    <div class="Box Relative">Box relative</div>
+    <div class="Box absolute">Box absolute</div>
+    <div class="Box fixed">Box fixed</div>    
+</body>
+</html>
